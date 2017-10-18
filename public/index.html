@@ -5,10 +5,17 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="디자인씽킹 랩(Design Thinking Lab)은 사용자 중심의 문제해결과 비지니스를 위해 컨설팅, 해커톤, 네트워킹 등을 운영하고 있습니다">
+    <meta name="author" content="Design Thinking Lab">
+    <meta name="keywords" content="디자인씽킹, 스타트업, 창업, 비지니스, 카이스트">
 
-    <title>KAIST Design Thinking Hackathon</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="디자인씽킹 랩(Design Thinking Lab)">
+    <meta property="og:description" content="디자인씽킹 랩(Design Thinking Lab)은 사용자 중심의 문제해결과 비지니스를 위해 컨설팅, 해커톤, 네트워킹 등을 운영하고 있습니다">
+    <meta property="og:image" content="http://www.designthinkinglab.kr/cover_sns.jpg">
+    <meta property="og:url" content="http://www.designthinkinglab.kr">
+
+    <title>디자인씽킹 랩(Design Thinking Lab) 디자인씽킹, 창업, 비지니스</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +31,24 @@
 	
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '185126378717722');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=185126378717722&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 
   </head>
 
@@ -67,7 +92,8 @@
         <div class="intro-text">
           <div class="intro-heading">DESIGN THINKING HACKATHON</div>
           <div class="intro-lead-in">2017. 11. 11 SAT – 11. 12 SUN<br/>KAIST W8 1<sup>st</sup> Floor</div>
-          <a class="btn btn-xl js-scroll-trigger" href="https://goo.gl/forms/KsRpS9YYOxJPWw4W2" target="_blank">해커톤 참가 신청하기</a>
+          <input class="btn btn-xl js-scroll-trigger" id="checkOutButton" type="button" value="해커톤 참가 신청하기"/>
+<!--           <a class="btn btn-xl js-scroll-trigger" id="checkOutButton" href="https://goo.gl/forms/KsRpS9YYOxJPWw4W2" target="_blank">해커톤 참가 신청하기</a> -->
         </div>
       </div>
       </div>
@@ -89,28 +115,28 @@
               <h5>디자인씽킹 퍼실리테이터 양성</h5>
               <!-- <p class="text-muted">Illustration</p> -->
             </div>
-            <img class="img-fluid" src="img/lab/lab_01.jpg" alt="">
+            <img class="img-fluid" src="img/lab/lab_01.jpg" alt="퍼실리테이터 양성">
           </div>
           <div class="col-md-3 col-sm-6 col-6 portfolio-item">              
             <div class="portfolio-caption">
               <h5>다지인씽킹 해커톤 운영</h5>
               <!-- <p class="text-muted">Illustration</p> -->
             </div>
-            <img class="img-fluid" src="img/lab/lab_02.jpg" alt="">
+            <img class="img-fluid" src="img/lab/lab_02.jpg" alt="해커톤 운영">
           </div>
           <div class="col-md-3 col-sm-6 col-6 portfolio-item">              
             <div class="portfolio-caption">
               <h5>비지니스 플랜 스터디 및 동료평가</h5>
               <!-- <p class="text-muted">Illustration</p> -->
             </div>
-            <img class="img-fluid" src="img/lab/lab_03.jpg" alt="">
+            <img class="img-fluid" src="img/lab/lab_03.jpg" alt="스터디 및 동료 평가">
           </div>
           <div class="col-md-3 col-sm-6 col-6 portfolio-item">              
             <div class="portfolio-caption">
               <h5>네트워킹</h5>
               <!-- <p class="text-muted">Illustration</p> -->
             </div>
-            <img class="img-fluid" src="img/lab/lab_04.jpg" alt="">
+            <img class="img-fluid" src="img/lab/lab_04.jpg" alt="네트워">
           </div>
         </div>
       </div>
@@ -134,7 +160,7 @@
             <p class="large text-right intro-subtext text-muted">Tim Brown<br/>CEO OF IDEO</p>
           </div>
           <div class="col-md-6 mx-auto">
-          	<img class="img-fluid pull-right" src="img/intro/intro.png" alt="">
+          	<img class="img-fluid pull-right" src="img/intro/intro.png" alt="혁신 디자인씽킹">
           </div>
 
 
@@ -156,7 +182,7 @@
         <div class="row text-center">
           <div class="col">
             <span class="fa-stack fa-4x">
-				<img class="img-fluid p-3" src="img/process/empathy.png" alt="">
+				<img class="img-fluid p-3" src="img/process/empathy.png" alt="공감">
             </span>
             <h4 class="intro-heading mb-0 mt-3">공감</h4>
             <h4 class="intro-heading mt-0">Empathy</h4>
@@ -164,31 +190,31 @@
           </div>
           <div class="col">
             <span class="fa-stack fa-4x">
-				<img class="img-fluid p-3" src="img/process/define.png" alt="">
+				<img class="img-fluid p-3" src="img/process/define.png" alt="정의">
             </span>
 			<h4 class="intro-heading mb-0 mt-3">문제정의</h4>
             <h4 class="intro-heading mt-0">Define</h4>
           </div>
           <div class="col">
             <span class="fa-stack fa-4x">
-				<img class="img-fluid p-3" src="img/process/ideate.png" alt="">
+				<img class="img-fluid p-3" src="img/process/ideate.png" alt="아이디어">
             </span>
 			<h4 class="intro-heading mb-0 mt-3">아이디어</h4>
             <h4 class="intro-heading mt-0">Ideate</h4>
           </div>
           <div class="col">
             <span class="fa-stack fa-4x">
-				<img class="img-fluid p-3" src="img/process/test.png" alt="">
-            </span>
-			<h4 class="intro-heading mb-0 mt-3">테스트</h4>
-            <h4 class="intro-heading mt-0">Test</h4>
-          </div>
-          <div class="col">
-            <span class="fa-stack fa-4x">
-				<img class="img-fluid p-3" src="img/process/prototype.png" alt="">
+				<img class="img-fluid p-3" src="img/process/prototype.png" alt="프로토타입">
             </span>
 			<h4 class="intro-heading mb-0 mt-3">프로토타입</h4>
             <h4 class="intro-heading mt-0">Prototype</h4>
+          </div>
+          <div class="col">
+            <span class="fa-stack fa-4x">
+        <img class="img-fluid p-3" src="img/process/test.png" alt="테스트">
+            </span>
+      <h4 class="intro-heading mb-0 mt-3">테스트</h4>
+            <h4 class="intro-heading mt-0">Test</h4>
           </div>
         </div>
       </div>
@@ -208,26 +234,26 @@
         </div>
         <div class="row">
           <div class="col-md-3 col-sm-6 col-6 portfolio-item thumbnail text-center">
-              <img class="img-fluid" src="img/benefits/1.jpg" alt="">
+              <img class="img-fluid" src="img/benefits/1.jpg" alt="다양성">
             <div class="portfolio-caption">
               <h4>다양성</h4>
               <!-- <p class="text-muted">Illustration</p> -->
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-6 portfolio-item">
-              <img class="img-fluid" src="img/benefits/2.jpg" alt="">
+              <img class="img-fluid" src="img/benefits/2.jpg" alt="도구상자">
             <div class="portfolio-caption">
               <h4>도구상자</h4>              
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-6 portfolio-item">
-              <img class="img-fluid" src="img/benefits/3.jpg" alt="">
+              <img class="img-fluid" src="img/benefits/3.jpg" alt="창의성">
             <div class="portfolio-caption">
               <h4>창의성</h4>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-6 portfolio-item">
-              <img class="img-fluid" src="img/benefits/4.jpg" alt="">
+              <img class="img-fluid" src="img/benefits/4.jpg" alt="협업">
             <div class="portfolio-caption">
               <h4>협업</h4>              
             </div>
@@ -250,41 +276,41 @@
 			<div class="row">
           <div class="col-md-3 col-sm-6 col-6">
             <!-- <a href="#"> -->
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/01.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/01.png" alt="marriott">
             <!-- </a> -->
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/02.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/02.png" alt="IBM">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/03.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/03.png" alt="watsons">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/04.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/04.png" alt="GE">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/05.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/05.png" alt="BMW">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/06.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/06.png" alt="airbnb">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/07.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/07.png" alt="SAP">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/08.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/08.png" alt="PHILIPS">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/09.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/09.png" alt="accenture">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/10.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/10.png" alt="BRAUN">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/11.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/11.png" alt="Apple">
           </div>
           <div class="col-md-3 col-sm-6 col-6">
-              <img class="img-fluid d-block mx-auto restrict" src="img/logos/12.png" alt="">
+              <img class="img-fluid d-block mx-auto restrict" src="img/logos/12.png" alt="LEGO">
             </div>
           </div>
           	</div>
@@ -310,7 +336,7 @@
           <div class="col-lg-8 mx-auto mb-3">
           	<div class="row mb-4">
           		<div class="col-lg-3 col-md-3 col-sm-6 thumbnail">
-          			<img class="img-fluid" src="img/news/news_1.jpg" alt="">
+          			<img class="img-fluid" src="img/news/news_1.jpg" alt="디자인씽킹 실행 원칙">
           		</div>
           		<div class="col-lg-9 col-md-9 col-sm-6 mx-auto">
           			<a href="http://www.ciokorea.com/insider/35080" target="_blank">
@@ -327,12 +353,12 @@
           			</a>
           		</div>
           		<div class="col-lg-3 col-md-3 col-sm-6 thumbnail">
-          			<img class="img-fluid" src="img/news/news_2.jpg" alt="">
+          			<img class="img-fluid" src="img/news/news_2.jpg" alt="디자인씽킹 신사업 100개">
           		</div>
           	</div>
           	<div class="row mb-4">
           		<div class="col-lg-3 col-md-3 col-sm-6 thumbnail">
-          			<img class="img-fluid" src="img/news/news_3.jpg" alt="">
+          			<img class="img-fluid" src="img/news/news_3.jpg" alt="배민, 랜딧 공통점">
           		</div>
           		<div class="col-lg-9 col-md-9 col-sm-6 mx-auto">
           			<a href="http://www.newspim.com/news/view/20161220000227" target="_blank">
@@ -349,7 +375,7 @@
           			</a>
           		</div>
           		<div class="col-lg-3 col-md-3 col-sm-6 thumbnail">
-          			<img class="img-fluid" src="img/news/news_4.jpg" alt="">
+          			<img class="img-fluid" src="img/news/news_4.jpg" alt="고객가치 중">
           		</div>
           	</div>
           </div>
@@ -375,11 +401,11 @@
             <p class="maintext"><span class="event-title">장소 :</span> KAIST W8 교육지원동 1층</p>
             <p class="maintext"><span class="event-title">신청기간 :</span> 2017. 11. 4 (토) 23:59까지 (얼리버드 신청기한: 10/29까지)</p>
 
-            <p class="maintext"><span class="event-title">참가정원 :</span> 대학(원)생 30명 (5인 6팀 구성)</p>
+            <p class="maintext"><span class="event-title">참가대상 :</span> 대학(원)생 30명 (5인 6팀 구성)</p>
             <p class="subtext text-muted">- 팀으로 지원 가능</p>
             <p class="maintext"><span class="event-title">참가방법 :</span> 아래 링크의 신청서 작성 후 참가비 입금 시 완료</p>
             <p class="subtext text-muted">- <a href="https://goo.gl/forms/KsRpS9YYOxJPWw4W2" target="_blank">참가 신청서 작성하기</a></p>
-            <p class="maintext"><span class="event-title">참가비 :</span> 20,000원 (얼리버드 10,000원, 10/22 까지)</p>
+            <p class="maintext"><span class="event-title">참가비 :</span> 20,000원 (얼리버드 10,000원, 10/29 까지)</p>
             <p class="subtext text-muted">- 하나은행 602-910458-96307 (예금주 : 김상원)</p>
             <p class="maintext"><span class="event-title">준비물 :</span> 개인 노트북(권장 사항), 열정</p>
             <p class="maintext"><span class="event-title">상금 :</span> 1등팀 300,000원 / 2등팀 150,000원</p>
@@ -422,11 +448,12 @@
 							</tr>
 							<tr>
 								<th scope="row">10:00</th>
-								<td rowspan="2">디자인씽킹 소개<br/>(Inspiration)</td>
+								<td rowspan="1">디자인씽킹 소개<br/>(Inspiration)</td>
 								<td>프로토타입 2차 피드백</td>
 							</tr>
 							<tr>
 								<th scope="row">11:00</th>
+                <td rowspan="1">아이스 브레이킹</td>
 								<td rowspan="2">프로토타입 개발</td>
 							</tr>
 							<tr>
@@ -483,6 +510,7 @@
 								<td>프로토타입 개발</td>
 							</tr>
 						</table>
+            <p>상기 일정은 변경될 수 있습니다.</p>
 					</div>
         </div>
       </div>
@@ -586,6 +614,15 @@
     <script src="js/agency.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
  
+<script type="text/javascript">
+  $( '#checkOutButton' ).click(function() {
+
+    fbq('track', 'InitiateCheckout');
+    window.open('https://goo.gl/forms/KsRpS9YYOxJPWw4W2', '_blank');
+    
+  });
+</script>
+
  <script>
  // Initialize Firebase
  // TODO: Replace with your project's customized code snippet
@@ -658,8 +695,8 @@
 	    alert("문의 오류입니다. hero4earth@kaist.ac.kr로 문의 메일주세요.");
 	  });
 }
+</script>
 
- </script>
   </body>
 
 </html>
